@@ -1,0 +1,28 @@
+.SubscribButton{
+    height: 50px;
+    width: 100%;
+    background-color: #fff;
+    margin-bottom: -20px;
+    border-radius: 30px;
+    overflow: hidden;
+    button,input{
+        height: 100%;
+        border: none;
+        outline: none;
+        font-size: larger;
+        letter-spacing: 1px;
+    }
+    button{
+        width: 30%;
+        border-top-right-radius: 0px;
+        border-bottom-right-radius: 0px;
+        background-color: $mainColor;
+        color: #fff;
+        font-weight: bold;
+        
+    }
+    input{
+        width: 70%;
+        padding-left: 5px;
+    }
+}

@@ -1,0 +1,58 @@
+.Logo404{
+    // border: 2px solid #333;
+    height: 400px;
+    width: 400px;
+    overflow: hidden;
+    transform: translate(40% , 10%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-image: radial-gradient(#fff, #ffd6d6) !important;
+
+    p{
+        font-weight: bold;
+        font-size: 60px;
+    }
+    p:nth-child(1){
+        color: #FF5039;
+    }
+    p:nth-child(2){
+
+    }
+    p:nth-child(3){
+        color: #FF5039;
+    }
+
+
+}
+.text404{
+    height: 100vh;
+    // width: 400px;
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    justify-content: center;
+    align-items:flex-start;
+    
+    p{
+        margin: 10px;
+    }
+    p:nth-child(1){
+        font-size: 36px;
+    }
+    p:nth-child(2){
+        font-size: 46px;
+        font-weight: bold;
+    }
+
+    p:nth-child(3){
+        font-size: 18px !important;
+        color: #515151;
+    }
+    p:nth-child(4){
+        font-size: 18px !important;
+        color: #515151;
+    }
+}

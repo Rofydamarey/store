@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+// ::-webkit-scrollbar
+// ::-webkit-scrollbar-button
+// ::-webkit-scrollbar-thumb
+// ::-webkit-scrollbar-track
+// ::-webkit-scrollbar-track-piece
+// ::-webkit-scrollbar-corner
+// ::-webkit-resizer
+/* width */
+::-webkit-scrollbar {
+    width: 20px;
+    
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #a1a1a1;
+    border: 2px solid #333;
+    border-radius: 12px;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: $mainColor;
+    border-radius: 12px;
+
+  }
+
+body,.App,:root{
+    width: 100%;
+    min-height: 100vh;
+}
+a.active{
+    color: $mainColor ;
+}
+
+
+.SectionName{
+  margin: 10px auto;
+  text-align: center;
+  width: fit-content;
+  padding: 10px;
+  position: relative;
+  &::after{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 5px;
+    border-radius: 50%;
+    width: 50%;
+    background-color: $mainColor;
+    margin: 0 auto;
+  }
+}
+// .divider{
+// background-color: #aaa;
+// width: 80%;
+// height: 1px;
+// margin: 0 auto;
+// }

@@ -1,0 +1,31 @@
+.ExclusiveComponent{
+    width: 100%;
+    // height: 600px;
+    // padding: 100px;
+    background-image: radial-gradient(#fff, #ffd6d6) !important;
+    padding: 100px 0;
+    div{
+        div:nth-child(1){
+            text-align: right;           
+            img{
+                width: 400px;
+
+            }
+        }
+        div:nth-child(2){
+            // flex-basis: 50%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            align-items:flex-start;
+            // align-content:flex-start;
+            // flex-wrap: wrap;
+            div{
+
+                // flex: 1;
+                // gap: 1;
+                // flex-grow: 1;
+            }
+        }
+    }
+}
